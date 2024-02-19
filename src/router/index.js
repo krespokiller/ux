@@ -20,6 +20,11 @@ const router = createRouter({
       name: 'services',
       component: ServicesView
     },
+    // Wildcard route to catch all unmatched routes and redirect to home
+    {
+      path: '/:catchAll(.*)',
+      redirect: '/home'
+    }
   ]
 })
 
