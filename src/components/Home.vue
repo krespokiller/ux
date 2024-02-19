@@ -130,6 +130,8 @@
             <button @click="modalOpen = false" class="mt-6 inline-block bg-blue-500 text-white py-2 px-6 rounded-lg shadow-lg hover:bg-blue-600">Cerrar</button>
         </div>
     </div>
+
+    <span>Puedes encontrar el repo aquí: <a href="https://github.com/krespokiller/maidCare.github.io">https://github.com/krespokiller/maidCare.github.io</a></span>
   </template>
 <script>
 export default {
